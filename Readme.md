@@ -110,16 +110,6 @@ The application uses the following priority order:
 
 ---
 
-## Possible Improvements
-
-* Playlist support
-* Shuffle / repeat modes
-* Keyboard shortcuts
-* Dark / light theme
-* Disable `nodeIntegration` and use a secure preload script
-
----
-
 ## License
 
 This project is free to use for learning and development purposes.
