@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  overflow: hidden;
+  user-select: none;
+}
+
+button {
+  outline: none;
+  user-select: none;
+}
+
+.Bg {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  user-select: none;
+}
+
+.Title {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  
+  width: 290px;
+  height: 26px;
+
+  align-content: center;
+  text-align: center;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: bold;
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+}
+
+.SongTitle {
+  position: absolute;
+  left: 0.9%;
+  top: 40px;
+  
+  width: 290px;
+  height: 26px;
+
+  align-content: center;
+  text-align: center;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: bold;
+  font-weight: 200;
+  font-size: 16px;
+  color: #fff;
+}
+
+.SongCover {
+  position: absolute;
+  width: 137px;
+  height: 136px;
+  border-radius: 5px;
+  left: 85px;
+  top: 75px;
+  cursor: pointer;
+  z-index: 10;
+  transition: 200ms;
+}
+
+.SongCover:active {
+  transition: 200ms;
+  transform: scale(1.9);
+  left: 75px;
+  top: 67px;
+}
+
+.BackSVG {
+  position: absolute;
+  left: 7px;
+  top: 5px;
+}
+
+.Back {
+  position: absolute;
+  cursor: pointer;
+  transition: 100ms;
+
+  left: 85px;
+  top: 237.5px;
+
+  width: 28.22px;
+  height: 28.22px;
+
+  background: #d9d9d927;
+  border: 1px solid #d9d9d927;
+}
+
+.Back:hover {
+  transform: scale(1.1);
+}
+
+.Back:active {
+  transform: scale(.7);
+}
+
+.ForwardSVG {
+  position: absolute;
+  left: 9px;
+  top: 5px;
+}
+
+.Forward {
+  position: absolute;
+  cursor: pointer;
+  transition: 100ms;
+
+  left: 190px;
+  top: 237.5px;
+
+  width: 28.22px;
+  height: 28.22px;
+
+  background: #d9d9d927;
+  border: 1px solid #d9d9d927;
+}
+
+.Forward:hover {
+  transform: scale(1.1);
+}
+
+.Forward:active {
+  transform: scale(.7);
+}
+
+.State {
+  position: absolute;
+  cursor: pointer;
+  transition: 100ms;
+
+  left: 116.5px;
+  top: 239.5px;
+
+  width: 70px;
+  height: 25.4px;
+
+  background: #d9d9d927;
+  border: 1px solid #d9d9d927;
+}
+
+.State:hover {
+  transform: scale(1.05);
+}
+
+.State:active {
+  transform: scale(.7);
+}
+
+.StartSVG {
+  position: absolute;
+  width: 19.96px;
+  height: 18.32px;
+  left: 35%;
+  top: 15%
+}
+
+.PauseSVG {
+  position: absolute;
+  width: 20.16px;
+  height: 20.16px;
+  left: 35%;
+  top: 10%
+}
+
+.LengthBg {
+  position: absolute;
+  cursor: pointer;
+  left: 50px;
+  top: 223px;
+
+  width: 200px;
+  height: 3px;
+
+  background: #ffffff2f;
+  border-radius: 10px;
+
+  transition: 200ms;
+}
+
+.Length {
+  position: absolute;
+
+  width: 10%;
+  height: 3px;
+
+  background: #ffffff;
+  border-radius: 10px;
+
+  transition: 200ms;
+}
+
+.VolumeBg {
+  position: absolute;
+  cursor: pointer;
+  left: -45px;
+  top: 133px;
+
+  width: 150px;
+  height: 3px;
+
+  transform: rotate(-90deg);
+  transform-origin: center;
+
+  background: #ffffff2f;
+  border-radius: 5px;
+}
+
+.Volume {
+  position: absolute;
+
+  width: 10%;
+  height: 3px;
+
+  background: #ffffff;
+  border-radius: 5px;
+
+  transition: 200ms;
+}
+
+.Volume,
+.VolumeBg {
+  transition: none;
+}
